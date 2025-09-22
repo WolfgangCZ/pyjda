@@ -24,14 +24,15 @@ def check_edit():
     pass
         
 def annoucment(text: str) -> None:
-    print("===================")
     print(text)
     print("===================")
+    input("Press any key to continue")
 
 def run_first_start(first_start: bool):
     if first_start:
-        annoucment(strings.FIRST_WELCOME)
-        input("Press any key to continue")
+        annoucment(strings.FIRST_WELCOME_01)
+        clear_terminal()
+        annoucment(strings.FIRST_WELCOME_02)
 
 def clear_terminal():
     os.system('cls' if os.name == 'nt' else 'clear')
