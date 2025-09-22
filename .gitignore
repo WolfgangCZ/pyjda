@@ -1,0 +1,100 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environment
+venv/
+env/
+.venv/
+env.bak/
+env/bin/activate
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Ipynb files
+*.ipynb
+
+# Jupyter notebook cache
+.ipynb_checkpoints/
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# Build
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dll
+*.DS_Store
+*.log
+*.egg-info
+*.egg
+dist/
+build/
+*.exe
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.zip
+*.whl
+*.dist-info
+*.egg-info
+*.egg
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dll
+*.gyp
+*.log
+*.manifest
+*.spec
+*.exe
+*.dist-info
+*.egg-info
+*.egg
+dist/
+build/
+*.exe
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.zip
+*.whl
+*.dist-info
+*.egg-info
+*.egg
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dll
+*.gyp
+*.log
+*.manifest
+*.spec
+
+# Miscellaneous
+*.swp
+*.swo
+*.bak
+*.log
+*.sqlite

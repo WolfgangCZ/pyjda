@@ -1,19 +1,37 @@
-"""
-Hellouky smouky
+
+
+FIRST_WELCOME = """
+WELCOME TO PYJDA
+
+##################################################
+#                                                #
+#   PPPP   Y   Y   JJJJ   DDDD     AAAAA         #
+#   P   P   Y Y      J    D   D   A     A        #
+#   PPPP     Y       J    D   D   AAAAAAA        #
+#   P        Y    J  J    D   D   A     A        #
+#   P        Y     JJ     DDDD    A     A        #
+#                                                #
+##################################################
+
+Tutuduuuuu!
 
 Have you ever dreamed of becoming a programmer? Did you think its impossible?
-Its too hard? Its not for you? That you dont have the brains?
+Its too hard? Its not for you? That you dont have the brains and smarts?
 
 Have you ever been stuck in a loop of looking for the best python course available
 and couldnt decide which one you go for?
 
-Well i have the solution for you!
-This is it. This is the one, the only, the most magnificient python course
+Well you are very lucky today cause I have the solution for you my dear!
+
+This is it! This is the one, the only, the most magnificient python course
 that will make you the best python programmer in the world and beyond!
+*cough* I mean the second best because I am  the best of course
 
 Are you ready?
 Ok lets do it!
+"""
 
+L01_HELLO_WORLD = """
 First as a real programmer, do you know what should you start with?
 if course its a Hello world! What else should it be dummy?
 
@@ -45,25 +63,3 @@ becuase that way you will learn absolutely nothing...
 
 Have fun
 """
-
-
-
-# btw line starting with '#' is a one line comment, this wont be executed
-# so you can write whatever you want here
-# as you could have seen above multi-line comments are created using triple quotes
-"""
-Multi
-Line
-Comment
-"""
-# you can actually use simple quotes too
-'''
-Comment
-'''
-
-# write the code below between the <code> and run it
-# TODO: create hello world print statement
-# <code>
-
-
-# <code>
