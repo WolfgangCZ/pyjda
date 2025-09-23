@@ -1,22 +1,51 @@
 # pyjda
 
-Learning tutorial for my gf to finally learn PYTHON (and whoever wants to learn python)
+A simple learning tutorial to help my girlfriend — and anyone else who wants to learn Python.
 
-Open a terminal and run the *'run.py'* in separate window. 
+Before you begin, make sure Python is installed on your system. If you need to install it, search for "install Python" and follow the official instructions for your operating system.
 
-For complete beginners, the command should generaly look like this
+To run the project:
+
+1. Open a terminal and navigate to this folder (use the `cd` command).
+2. Create a virtual environment:
 ```
-python ./path/to/run.py
+python -m venv .venv
 ```
-Of course replace the path/to with actual path or you can navigate in this folder
-and just use ./run.py
-The command can also be 'python3' on some other operating systems
-Oh and you have to also install python.
-Just google it, you are smart...
+3. Activate the virtual environment:
+- On Windows (PowerShell):
+```
+.venv\Scripts\Activate.ps1
+```
+- On Windows (cmd):
+```
+.venv\Scripts\activate.bat
+```
+- On macOS / Linux:
+```
+source .venv/bin/activate
+```
+4. Install dependencies:
+```
+pip install -r requirements.txt
+```
+5. Run the program in a separate terminal window:
+```
+python ./run.py
+```
+6. Do what the program tells you
+7. Have fun!
 
+Note: On some Linux/macOS systems the `python` command may be `python3`. Use whichever command runs Python 3 on your machine.
 
-## LESSONS:
+Lessons
+-------
 
-#### 00 - Hello world
-#### 01 - Variables
-#### 02 - Functions
+- 00 - Hello world
+- 01 - Variables
+- 02 - Functions
+
+Notes
+-----
+
+- The virtual environment keeps project dependencies isolated from your system Python.
+- If you get stuck, search online for step-by-step guides — there are many beginner-friendly resources.

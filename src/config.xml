@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document >
+    <global>
+        <first_run>1</first_run>
+    </global>
+    <chapters>
+        <chapter name="01_print">
+            <lesson name="hello_world">
+                <is_done>0</is_done>
+                <last_edit_date></last_edit_date>
+            </lesson>
+        </chapter>
+    </chapters>
+</document>
