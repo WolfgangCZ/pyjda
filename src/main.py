@@ -9,17 +9,6 @@ from src import config
 from src.constants import LessonsPaths
 from src import strings
 
-class OutputCapturer:
-    def __init__(self):
-        self.content = ''
-
-    def write(self, text):
-        self.content += text
-        sys.stdout = sys.__stdout__
-        sys.stdout.write(text)
-        sys.stdout = self 
-
-
 def check_edit():
     pass
         
